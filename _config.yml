@@ -1,53 +1,52 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# User config
+author: "Caio MGA"
+tagline: "Caio MGA - Game Dev - Unity"
+about: "Sou Caio Marchi, Desenvolvedor de Games Unity/HTML5 na i9ação, empresa paulista de treinamento e criação de games corporativos presenciais, e digitais para LMS, Android, iOS, Windows e Web. Aos 4 anos de idade ganhei um Master System III num pacote de Ruffles, e desde então tenho fascínio e admiração por tudo relacionado a games."
+keywords: "Caio MGA, gamedev, c-sharp, C#, unity, javascript, phaser, pixi"
+email: "caiomga@gmail.com"
+linkedin: "https://www.linkedin.com/in/caiomga/"
+twitter: "https://twitter.com/CaioMGA"
+github: "https://github.com/CaioMGA"
+bitbucket: "https://bitbucket.org/CaioMGA/"
+itch.io: "https://caiomga.itch.io/"
+unityconnect: "https://connect.unity.com/u/caio-marchi-gomes-do-amaral"
+skills-programming:
+  - name: Unity Engine
+    percent: 9
+  - name: JavaScript
+    percent: 7
+  - name: C#
+    percent: 7
+  - name: node.js
+    percent: 4
+  - name: Git (Github)
+    percent: 6
+  - name: Tools Programming
+    percent: 7
+  - name: Phaser/Pixi
+    percent: 6
+  
+skills-other:
+  - name: 2D
+    percent: 9
+  - name: 3D
+    percent: 7
+  - name: VFX
+    percent: 6
+  - name: UI/UX
+    percent: 6
+  - name: Presentation
+    percent: 9
+  - name: Animation
+    percent: 6
+  - name: Mobile (Android e iOS)
+    percent: 7
+  - name: Web
+    percent: 8
 
-title: Caio MGA - Game Developer
-email: caiomga@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Caio MGA's portifolio
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: caiomga
-github_username:  caiomga
-
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Site config
+baseurl: ""
+highlighter: rouge
+sass:
+  sass_dir: assets/scss
+  style: compressed
