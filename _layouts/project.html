@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>{{ site.author }} / {{ page.project.title }}</title>
 	<meta name="author" content="{{ site.author }}">
@@ -7,6 +8,7 @@
 	<meta name="keywords" content="{{ page.meta.keywords }}">
 	{% include head.html %}
 </head>
+
 <body>
 	{% include header.html %}
 	<main class="content">
@@ -15,7 +17,19 @@
 				<article>
 					<span class="h2">Project Title</span>
 					<h1>
-						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
+						<script>
+							console.log("{{page.project.url}}");
+						</script>
+						{% if page.project.url != "none" %}
+							<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}"
+								rel="nofollow">
+						{% endif %}
+
+						{{ page.project.title }}
+
+						{% if page.project.url != "none" %}
+							</a>
+						{% endif %}
 					</h1>
 					<span class="h2">Cliente</span>
 					<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank"
@@ -25,14 +39,14 @@
 
 					<span class="h2">Atuação</span>
 					<ul class="role">
-					{% for role in page.roles %}
-					<li>{{ role }}</li>
-					{% endfor %}
+						{% for role in page.roles %}
+						<li>{{ role }}</li>
+						{% endfor %}
 					</ul>
 
 					<span class="h2">Plataformas</span>
-						{{ page.platforms }}
-						
+					{{ page.platforms }}
+
 					<div class="project-meta">
 						<span class="h2">Stack/Softwares utilizados</span>
 						<p>{{ page.project.tech }}</p>
@@ -42,6 +56,11 @@
 				</article>
 				<aside>
 					<ul>
+						{% for video in page.videos %}
+						<div class="project-video-container">
+							<iframe class="project-video" src="{{video.url}}" frameborder="0" 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						{% endfor %}
 						{% for image in page.images %}
 						<li>
 							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
@@ -54,13 +73,15 @@
 		<section class="project-navigation">
 			<div class="container">
 				{% if page.previous and page.previous.categories contains "projects" %}
-				<a title="Previous {{ page.previous.project.title }}" href="{{ page.previous.url | prepend: site.baseurl }}" class="prev">
+				<a title="Previous {{ page.previous.project.title }}"
+					href="{{ page.previous.url | prepend: site.baseurl }}" class="prev">
 					<span class="h2">Previous</span>
 					<h2>{{ page.previous.project.title }}</h2>
 				</a>
 				{% endif %}
 				{% if page.next and page.next.categories contains "projects" %}
-				<a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}" class="next">
+				<a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}"
+					class="next">
 					<span class="h2">Next</span>
 					<h2>{{ page.next.project.title }}</h2>
 				</a>
@@ -74,4 +95,5 @@
 	<script src="{{ "/assets/scripts/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
 	<script src="{{ "/assets/scripts/project.js" | prepend: site.baseurl }}"></script>
 </body>
+
 </html>
