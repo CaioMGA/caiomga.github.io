@@ -28,7 +28,7 @@
 }
 
 .skills {
-    padding: 50px 0;
+    padding: 0px 0;
 }
 
 .project-video-container {
@@ -393,7 +393,7 @@
 	background: $color-alabaster;
 	bottom: 0;
 	left: 0;
-	padding: 5rem 0;
+	padding: 3rem 0;
 	position: fixed;
 	right: 0;
 	z-index: -1;
@@ -450,6 +450,25 @@ progress[value]::-webkit-progress-value::after {
 
 .skills-container {
 	 display: float;
+}
+
+.bio-container {
+	 display: float;
+}
+
+.bio-left {
+	width:20%;
+	float: left;
+}
+
+.bio-right {
+	width: 75%;
+	float: left;
+	margin-left: 5%;
+}
+
+.bio-right p {
+	vertical-align: middle;
 }
 
 

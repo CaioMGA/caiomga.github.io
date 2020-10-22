@@ -43,6 +43,10 @@ skills-other:
     percent: 7
   - name: Web
     percent: 8
+  - name: Trabalho Remoto
+    percent: 9
+  - name: Trabalho em Equipe
+    percent: 9
 
 # Site config
 baseurl: ""
