@@ -40,10 +40,12 @@ images:
     alt: "Red Pineapple website on a mobile device"
 
 roles: 
-  - Programador Generalista
+  - Programador Gameplay
+  - Programador Backend
+  - Programador UI
   - Animador Generalista
   - VFX
-  - Câmera Design
+  - Câmera
   - Sound Design
   - Polimento e Tweaking
 
