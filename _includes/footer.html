@@ -1,17 +1,16 @@
 <footer class="footer">
 	<div class="container">
 		<section class="contact">
-			<h2>Contact</h2>
-			<a title="{{ site.email }}" href="mailto:{{ site.email }}">{{ site.email }}</a>
+			<h2>Contato</h2>
+			<p><a title="{{ site.email }}" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+			<p style="padding-top:2em"><a title="{{ site.author }} - Game DEV" href="{{ site.baseurl | append: "/" }}">{{ site.author }}</br>Game DEV</a></p>
 		</section>
 		<section class="follow">
-			<h2>Follow</h2>
+			<h2>Redes Sociais</h2>
 			<ul>
-				<li><a title="LinkedIn" href="{{ site.linkedin }}" target="_blank">LinkedIn</a></li>
-				<li><a title="Github" href="{{ site.github }}" target="_blank">Github</a></li>
-				<li><a title="Bitbucket" href="{{ site.bitbucket }}" target="_blank">Bitbucket</a></li>
-				<li><a title="itch.io" href="{{ site.itch.io }}" target="_blank">itch.io</a></li>
-				<li><a title="Unity Connect" href="{{ site.unityconnect }}" target="_blank">Unity Connect</a></li>
+				{% for social-media in site.social-media %}
+				<li><a title="LinkedIn" href="{{ social-media.url }}" target="_blank">{{ social-media.name }}</a></li>
+				{% endfor %}
 			</ul>
 		</section>
 	</div>

@@ -1,15 +1,27 @@
 # User config
 author: "Caio MGA"
 tagline: "Caio MGA - Game Dev - Unity"
-about: "Sou Caio MGA, Desenvolvedor de Games Unity/HTML5. Atuo na área de T.I. desde 2011, trabalho exclusivamente com jogos desde 2017. Aos 4 anos de idade ganhei um Master System III num pacote de Ruffles, e desde então tenho fascínio e admiração por tudo relacionado a games."
+about: "Sou Caio MGA, Desenvolvedor de Games Unity/HTML5. Atuo na área de T.I. desde 2011, trabalho exclusivamente com jogos desde 2017. Aos 4 anos de idade ganhei um Master System III num pacote de Ruffles, virar gamedev era destino."
 keywords: "Caio MGA, gamedev, c-sharp, C#, unity, javascript, phaser, pixi"
 email: "caiomga@gmail.com"
-linkedin: "https://www.linkedin.com/in/caiomga/"
-twitter: "https://twitter.com/CaioMGA"
-github: "https://github.com/CaioMGA"
-bitbucket: "https://bitbucket.org/CaioMGA/"
-itch.io: "https://caiomga.itch.io/"
-unityconnect: "https://connect.unity.com/u/caio-marchi-gomes-do-amaral"
+
+social-media:
+  - site: 
+    name: LinkedIn
+    url: "https://www.linkedin.com/in/caiomga/"
+  - site:
+    name: Github
+    url: "https://github.com/CaioMGA"
+  - site:
+    name: Bitbucket
+    url: "https://bitbucket.org/CaioMGA/"
+  - site:
+    name: itch.io
+    url: "https://caiomga.itch.io/"
+  - site:
+    name: Unity Connect
+    url: "https://connect.unity.com/u/caio-marchi-gomes-do-amaral"
+
 skills-programming:
   - name: Unity Engine
     percent: 9
