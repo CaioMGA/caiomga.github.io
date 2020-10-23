@@ -112,6 +112,10 @@
 	}
 }
 
+.nounderline {
+	text-decoration: none;
+}
+
 .projects-list {
 	@media (min-width: $breakpoint-small) {
 		margin-left: -1.5rem;
