@@ -37,6 +37,8 @@ skills-programming:
     percent: 6
   - name: HLSL (Shaders)
     percent: 5
+  - name: Automação
+    percent: 4
   - name: node.js
     percent: 4
   
