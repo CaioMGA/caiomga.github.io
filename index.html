@@ -37,7 +37,7 @@
 				<ul class="projects-list">
 					{% for item in site.categories.projects reversed %}
 					<li>
-						<a href="{{ item.url | prepend: site.baseurl }}">
+						<a class="nounderline" href="{{ item.url | prepend: site.baseurl }}">
 							<div class="img-wrapper">
 								<img src="{{ item.project.logo | prepend: site.baseurl }}"
 									alt="{{ item.project.title }}" />
