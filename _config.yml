@@ -37,6 +37,8 @@ skills-programming:
     percent: 7
   - name: Phaser/Pixi
     percent: 6
+  - name: HLSL (Shaders)
+    percent: 5
   
 skills-other:
   - name: 2D
