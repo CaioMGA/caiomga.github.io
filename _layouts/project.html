@@ -31,7 +31,11 @@
 							</a>
 						{% endif %}
 					</h1>
+					{% if page.agency.title == "source" %}
+					<span class="h2">Código-fonte</span>
+					{% else %}
 					<span class="h2">Cliente</span>
+					{% endif %}
 					<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank"
 							rel="nofollow">{{ page.agency.title }}</a></p>
 					<span class="h2">Descrição</span>
