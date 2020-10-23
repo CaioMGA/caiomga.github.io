@@ -29,38 +29,39 @@ skills-programming:
     percent: 7
   - name: C#
     percent: 7
-  - name: node.js
-    percent: 4
   - name: Git (Github)
     percent: 6
   - name: Tools Programming
-    percent: 7
+    percent: 6
   - name: Phaser/Pixi
     percent: 6
   - name: HLSL (Shaders)
     percent: 5
+  - name: node.js
+    percent: 4
   
 skills-other:
   - name: 2D
     percent: 9
   - name: 3D
     percent: 7
-  - name: VFX
-    percent: 6
-  - name: UI/UX
-    percent: 6
-  - name: Presentation
-    percent: 9
-  - name: Animation
-    percent: 6
-  - name: Mobile (Android e iOS)
-    percent: 7
-  - name: Web
-    percent: 8
   - name: Trabalho Remoto
     percent: 9
   - name: Trabalho em Equipe
     percent: 9
+  - name: Presentation
+    percent: 9
+  - name: Web
+    percent: 8
+  - name: Mobile (Android e iOS)
+    percent: 7
+  - name: VFX
+    percent: 6
+  - name: UI/UX
+    percent: 6
+  - name: Animation
+    percent: 6
+  
 
 # Site config
 baseurl: ""
