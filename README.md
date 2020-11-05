@@ -1,6 +1,6 @@
 # Caio MGA - portfolio
 
-Portfolio based on [Pineapple](https://arnolds.io/pineapple/) theme for Jekyll.
+Portfolio based on [Pineapple](https://arnolds.io/pineapple/) theme for [Jekyll](https://jekyllrb.com/).
 
 
 ## How to Run
