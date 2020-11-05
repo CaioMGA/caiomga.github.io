@@ -63,7 +63,10 @@ skills-other:
     percent: 6
   - name: Animation
     percent: 6
-  
+
+repo-url: https://github.com/CaioMGA/caiomga.github.io
+jekyll-url: https://jekyllrb.com/
+pineapple-url: https://arnolds.io/pineapple/ 
 
 # Site config
 baseurl: ""
