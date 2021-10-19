@@ -27,7 +27,7 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/luccastoon/Splashscreen.png"
+    url: "/assets/images/projects/luccastoon/splash.png"
     alt: "Splashscreen Luccas Toon"
 
 
