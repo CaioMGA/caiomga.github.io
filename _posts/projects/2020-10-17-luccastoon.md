@@ -64,5 +64,5 @@ roles:
 
 
 ---
-<p>Hub de conteúdo da Luccas Toon, do Luccas Neto. O App é um ambiente seguro para que as crianças assistam vídeos e tenham acesso às novidades da Luccas Toon.</p>
-<p>O App todo é feito em Unity, com excessão do sistema de exibição de propagandas, em Java.</p>
+<p>Hub de conteúdo da Luccas Toon. O App é um ambiente seguro para que as crianças assistam vídeos e tenham acesso às novidades da Luccas Toon.</p>
+<p>Todo feito em Unity, com exceção do sistema de exibição de propagandas, em Java.</p>
