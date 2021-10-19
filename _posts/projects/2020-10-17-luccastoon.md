@@ -30,32 +30,32 @@ images:
     url: "/assets/images/projects/luccastoon/splash.png"
     alt: "Splashscreen Luccas Toon"
   - image:
-    url: "/assets/images/projects/luccastoon/avatar1.png"
-    alt: "Splashscreen Luccas Toon"
-  - image:
     url: "/assets/images/projects/luccastoon/islands.png"
-    alt: "Splashscreen Luccas Toon"
+    alt: "Hub world"
+  - image:
+    url: "/assets/images/projects/luccastoon/avatar1.png"
+    alt: "Avatar Customization"
   - image:
     url: "/assets/images/projects/luccastoon/avatar2.png"
-    alt: "Splashscreen Luccas Toon"
+    alt: "Avatar Customization"
   - image:
     url: "/assets/images/projects/luccastoon/home.png"
-    alt: "Splashscreen Luccas Toon"
+    alt: "Home"
   - image:
     url: "/assets/images/projects/luccastoon/loja1.png"
-    alt: "Splashscreen Luccas Toon"
+    alt: "Loja"
   - image:
     url: "/assets/images/projects/luccastoon/loja2.png"
-    alt: "Splashscreen Luccas Toon"
+    alt: "Loja"
   - image:
     url: "/assets/images/projects/luccastoon/comboavatar.png"
-    alt: "Splashscreen Luccas Toon"
+    alt: "Combo Avatar"
   - image:
     url: "/assets/images/projects/luccastoon/novidades.png"
-    alt: "Splashscreen Luccas Toon"
+    alt: "Novidades"
   - image:
     url: "/assets/images/projects/luccastoon/slime.png"
-    alt: "Splashscreen Luccas Toon"
+    alt: "Seleção de personagens do minigame Bolha de Slime"
 
 
 roles:
