@@ -18,9 +18,6 @@ social-media:
   - site:
     name: itch.io
     url: "https://caiomga.itch.io/"
-  - site:
-    name: Unity Connect
-    url: "https://connect.unity.com/u/caio-marchi-gomes-do-amaral"
 
 skills-programming:
   - name: Unity Engine
