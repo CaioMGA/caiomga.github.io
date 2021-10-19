@@ -27,23 +27,8 @@ videos:
 
 images:
   - image:
-    url: "/assets/images/projects/luccastoon/1.png"
-    alt: "Imagem Luccas Toon Z"
-  - image:
-    url: "/assets/images/projects/luccastoon/2.png"
-    alt: "Imagem Luccas Toon"
-  - image:
-    url: "/assets/images/projects/luccastoon/3.png"
-    alt: "Imagem Luccas Toon"
-  - image:
-    url: "/assets/images/projects/luccastoon/4.png"
-    alt: "Imagem Luccas Toon"
-  - image:
-    url: "/assets/images/projects/luccastoon/5.png"
-    alt: "Imagem Luccas Toon"
-  - image:
-    url: "/assets/images/projects/luccastoon/6.png"
-    alt: "Imagem Luccas Toon"
+    url: "/assets/images/projects/luccastoon/Splashscreen.png"
+    alt: "Splashscreen Luccas Toon"
 
 
 roles:
@@ -51,7 +36,7 @@ roles:
   - Polimento e Tweaking
   - Importação de conteúdo
   - Tooling
-  - Artista de Shaders
+  - Artista de Shader
   - Otimização de Particle Systems
   - Tester em device
   - Software Engineer
