@@ -11,7 +11,7 @@ project:
   type: "Aplicativo + Games"
   url: "https://play.google.com/store/apps/details?id=com.zeroum.luccastoon&hl=pt_BR&gl=US"
   logo: "/assets/images/projects/luccastoon/logo.png"
-  tech: "Mobile, Unity Engine, C#, Video streaming, In-app purchases"
+  tech: "Mobile, Unity Engine, C#, In-app purchases, Admob, Unity Cloud Build"
 
 agency:
   title: "Luccas Neto - Luccas Toon"
