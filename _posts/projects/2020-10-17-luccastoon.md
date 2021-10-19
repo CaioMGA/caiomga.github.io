@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "Luccas Toon"
-  type: "Aplicativo + Games"
+  type: "Aplicativo"
   url: "https://play.google.com/store/apps/details?id=com.zeroum.luccastoon&hl=pt_BR&gl=US"
   logo: "/assets/images/projects/luccastoon/logo.png"
   tech: "Mobile, Unity Engine, C#, In-app purchases, Admob, Unity Cloud Build"
