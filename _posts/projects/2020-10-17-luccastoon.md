@@ -20,11 +20,6 @@ agency:
 
 platforms: "Android, iOS (iPhone e iPad)"
   
-videos:
-  - video:
-    url: "https://www.youtube.com/embed/crFhJ_-96CM"
-    alt: "Vídeo do aplicativo Luccas Toon, do Luccas Neto."
-
 images:
   - image:
     url: "/assets/images/projects/luccastoon/splash.png"
