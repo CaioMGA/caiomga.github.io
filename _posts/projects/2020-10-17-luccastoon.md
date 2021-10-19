@@ -57,7 +57,6 @@ roles:
   - Programador Unity Generalista
   - Polimento e Tweaking
   - Importação de conteúdo
-  - Tooling
   - Artista de Shader
   - Otimização de Particle Systems
   - Tester em device
