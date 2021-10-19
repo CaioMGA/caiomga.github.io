@@ -10,7 +10,7 @@ project:
   title: "Luccas Toon"
   type: "Aplicativo + Games"
   url: "https://play.google.com/store/apps/details?id=com.zeroum.luccastoon&hl=pt_BR&gl=US"
-  logo: "/assets/images/projects/braskem/logo.png"
+  logo: "/assets/images/projects/luccastoon/logo.png"
   tech: "Mobile, Unity Engine, C#, Video streaming, In-app purchases"
 
 agency:
