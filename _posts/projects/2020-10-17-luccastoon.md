@@ -16,7 +16,7 @@ project:
 agency:
   title: "Luccas Neto - Luccas Toon"
   url: "https://www.youtube.com/user/luccasneto"
-  year: "2020 - atualmente"
+  year: "2020 - 2021"
 
 platforms: "Android, iOS (iPhone e iPad)"
   
