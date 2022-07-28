@@ -167,6 +167,7 @@
 		&:before {
 			content: "View Project";
 			color: $color-white;
+			outline: 1px $color-black;
 			@extend .h2;
 			font-weight: 800;
 			position: absolute;
