@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "Einstein - 4 Estações"
-  type: "Game Treinamento"
+  type: "Training Game"
   url: "none"
   logo: "/assets/images/projects/einstein-4estacoes/logo.png"
   tech: "Unity Engine, Stack AWS, MasterAudio, Git, Cinemachine, node.js"
@@ -18,12 +18,12 @@ agency:
   url: "https://www.einstein.br/"
   year: "2020"
 
-platforms: "Android e iOS"
+platforms: "Android, iOS"
   
 videos:
   - video:
     url: "https://www.youtube.com/embed/_5ZLG_6QWPk"
-    alt: "Vídeo do jogo 4 Estações, para o cliente Hospital Albert Einstein."
+    alt: "4 Estações gameplay. Made for Hospital Albert Einstein."
 
 images:
   - image: 
@@ -37,15 +37,16 @@ images:
     alt: "Einstein - 4 Estações screenshot"
   - image:
     url: "/assets/images/projects/einstein-4estacoes/3.png"
-    alt: "Red Pineapple website on a mobile device"
+    alt: "Einstein - 4 Estações screenshot"
 
 roles: 
-  - Programador Generalista
-  - Animador Generalista
+  - Generalist Programmer
+  - Animator
   - VFX
-  - Câmera Design
-  - Sound Design
-  - Polimento e Tweaking
+  - Sound Designer
+  - Testing
+  - Content update and delivery
+  - Polishing and tweaking
 
 ---
-<p>Jogo desenvolvido pela i9ação para o Hospital Albert Einstein com o objetivo de trabalhar com os colaboradores internos os protocolos de práticas de prevenção à infecção sanguínea, à infecção do trato urinário, à queda e à lesão por pressão.</p>
+<p>Game created by i9Ação for Hospital Albert Einstein aiming to teach staff about best practices and prevention of blood infections, urinary tract infections, falls and pressure sores.</p>

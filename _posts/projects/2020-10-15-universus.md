@@ -2,9 +2,10 @@
 layout: project
 permalink: /:title/
 category: projects
+tech: "Unity, C#, NFT, blockchain, UI Toolkit, Figma"
 
 meta:
-  keywords: "Mobile, Android, iOS, Unity 2D, VFX"
+  keywords: "Mobile, Android, iOS, Unity 2D, VFX, UI Toolkit"
 
 project:
   title: "Universus"
@@ -33,9 +34,10 @@ images:
 
 
 roles:
-  - Desenvolvedor Unity Pleno
+  - Generalist Unity Developer
   - UI specialist
+  - Tester
 
 ---
-<p>Jogo Play-to-earn de NFTs e blockchain.</p>
-<p>Explore planetas e galáxias com jogadores do mundo todo.</p>
+<p>Play-to-earn NFT game.</p>
+<p>Explore planets and galaxies with players from all around the world.</p>

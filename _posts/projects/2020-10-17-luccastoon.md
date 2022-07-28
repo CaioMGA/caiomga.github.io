@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "Luccas Toon"
-  type: "Aplicativo"
+  type: "Freemium App"
   url: "https://play.google.com/store/apps/details?id=com.zeroum.luccastoon&hl=pt_BR&gl=US"
   logo: "/assets/images/projects/luccastoon/logo.png"
   tech: "Mobile, Unity Engine, C#, In-app purchases, Admob, Unity Cloud Build"
@@ -38,31 +38,30 @@ images:
     alt: "Home"
   - image:
     url: "/assets/images/projects/luccastoon/loja1.png"
-    alt: "Loja"
+    alt: "Shop"
   - image:
     url: "/assets/images/projects/luccastoon/loja2.png"
-    alt: "Loja"
+    alt: "Shop"
   - image:
     url: "/assets/images/projects/luccastoon/comboavatar.png"
-    alt: "Combo Avatar"
+    alt: "Combo: Avatar"
   - image:
     url: "/assets/images/projects/luccastoon/novidades.png"
     alt: "Novidades"
   - image:
     url: "/assets/images/projects/luccastoon/slime.png"
-    alt: "Seleção de personagens do minigame Bolha de Slime"
+    alt: "Character selection"
 
 
 roles:
-  - Programador Unity Generalista
-  - Polimento e Tweaking
-  - Importação de conteúdo
-  - Artista de Shader
-  - Otimização de Particle Systems
-  - Tester em device
   - Software Engineer
-
+  - Generalist Unity Programmer
+  - Polishing and Tweaking
+  - Shader artist
+  - Particle System Optimization
+  - Content update and delivery
+  - Tester
 
 ---
-<p>Hub de conteúdo da Luccas Toon. O App é um ambiente seguro para que as crianças assistam vídeos e tenham acesso às novidades da Luccas Toon.</p>
-<p>Todo feito em Unity, com exceção do sistema de exibição de propagandas, em Java.</p>
+<p>Luccas Toon's hub content. A safe environment for kids to watch videos and have access to news and games from Luccas Toon.</p>
+<p>Made in Unity and Java(advertisement).</p>

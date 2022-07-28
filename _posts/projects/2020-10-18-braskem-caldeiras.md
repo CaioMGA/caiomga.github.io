@@ -4,11 +4,11 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Scorm, LMS, Assai, Segurança, Alimentos"
+  keywords: "Braskem, Unity, Evaluation, WebGL"
 
 project:
   title: "Braskem - Jogo das Caldeiras"
-  type: "Game Avaliação"
+  type: "Evaluation Game"
   url: "none"
   logo: "/assets/images/projects/braskem/logo.png"
   tech: "WEBGL, Unity Engine, C#"
@@ -18,7 +18,7 @@ agency:
   url: "https://www.braskem.com.br/"
   year: "2018 - 2020"
 
-platforms: "WEBGL, Web"
+platforms: "WebGL, Web"
   
 videos:
   - video:
@@ -48,13 +48,14 @@ images:
 
 roles:
   - Software Engineer
-  - Programador Unity Lead
-  - Programador Backend Lead
-  - Animador
-  - Polimento e Tweaking
-  - Importação de conteúdo
-  - Fechamento de Builds
+  - Lead Unity Programmer
+  - Lead Back-end programmer
+  - Animator
+  - Polishing and Tweaking
+  - Testing
+  - Content update and delivery
+  - Build creation
 
 
 ---
-<p>Jogo de avaliação sobre operação de Caldeiras de fundição da empresa Braskem, criado pela i9Ação.</p>
+<p>Evaluation Game created by i9ação about boiler plants operation for Braskem.

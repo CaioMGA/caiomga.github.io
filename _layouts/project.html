@@ -15,13 +15,13 @@
 		<section class="project">
 			<div class="container">
 				<article>
-					<span class="h2">Project Title</span>
+					<span class="h2">"{{ page.project.title }}"</span>
 					<h1>
 						<script>
 							console.log("{{page.project.url}}");
 						</script>
 						{% if page.project.url != "none" %}
-							<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}"
+							<a href="{{ page.project.url }}" target="_blank" title="Link"
 								rel="nofollow">
 						{% endif %}
 
@@ -32,29 +32,29 @@
 						{% endif %}
 					</h1>
 					{% if page.agency.title == "source" %}
-					<span class="h2">Código-fonte</span>
+					<span class="h2">Source code</span>
 					{% else %}
-					<span class="h2">Cliente</span>
+					<span class="h2">Client</span>
 					{% endif %}
 					<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank"
 							rel="nofollow">{{ page.agency.title }}</a></p>
-					<span class="h2">Descrição</span>
+					<span class="h2">Description</span>
 					{{ page.content }}
 
-					<span class="h2">Atuação</span>
+					<span class="h2">Roles</span>
 					<ul class="role">
 						{% for role in page.roles %}
 						<li>{{ role }}</li>
 						{% endfor %}
 					</ul>
 
-					<span class="h2">Plataformas</span>
+					<span class="h2">Platforms</span>
 					{{ page.platforms }}
 
 					<div class="project-meta">
 						<span class="h2">Stack/Softwares utilizados</span>
 						<p>{{ page.project.tech }}</p>
-						<span class="h2">Ano</span>
+						<span class="h2">Release</span>
 						<p>{{ page.agency.year }}</p>
 					</div>
 				</article>
