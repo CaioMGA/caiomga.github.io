@@ -15,11 +15,8 @@
 		<section class="project">
 			<div class="container">
 				<article>
-					<span class="h2">"{{ page.project.title }}"</span>
+					<span class="h2">Project</span>
 					<h1>
-						<script>
-							console.log("{{page.project.url}}");
-						</script>
 						{% if page.project.url != "none" %}
 							<a href="{{ page.project.url }}" target="_blank" title="Link"
 								rel="nofollow">
@@ -52,7 +49,7 @@
 					{{ page.platforms }}
 
 					<div class="project-meta">
-						<span class="h2">Stack/Softwares utilizados</span>
+						<span class="h2">Stack/Tech</span>
 						<p>{{ page.project.tech }}</p>
 						<span class="h2">Release</span>
 						<p>{{ page.agency.year }}</p>
