@@ -16,7 +16,7 @@ project:
 agency:
   title: "Hospital Israelita Albert Einstein"
   url: "https://www.einstein.br/"
-  year: "2020"
+  year: "2020 Q3"
 
 platforms: "Android, iOS"
   

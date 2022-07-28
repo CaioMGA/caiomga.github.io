@@ -16,7 +16,7 @@ project:
 agency:
   title: "Braskem"
   url: "https://www.braskem.com.br/"
-  year: "2018 - 2020"
+  year: "2020 Q1"
 
 platforms: "WebGL, Web"
   
