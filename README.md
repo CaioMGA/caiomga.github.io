@@ -1,4 +1,4 @@
-# Caio MGA - portfolio
+# Caio Amaral - portfolio
 
 Portfolio based on [Pineapple](https://arnolds.io/pineapple/) theme for [Jekyll](https://jekyllrb.com/).
 
