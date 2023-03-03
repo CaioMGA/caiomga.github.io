@@ -4,11 +4,11 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Braskem, Unity, Evaluation, WebGL"
+  keywords: "Braskem, Unity, Training, WebGL"
 
 project:
   title: "Braskem - Jogo das Caldeiras"
-  type: "Evaluation Game"
+  type: "Serious Game"
   url: "none"
   logo: "/assets/images/projects/braskem/logo.png"
   tech: "WEBGL, Unity Engine, C#"
