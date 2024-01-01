@@ -5,8 +5,11 @@ Portfolio based on [Pineapple](https://arnolds.io/pineapple/) theme for [Jekyll]
 ## Pre-requisites
 Ruby
 gems:
+
     - jekyll
+    
     - bundler
+    
 
 ## How to Run
 
