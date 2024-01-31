@@ -18,6 +18,15 @@ social-media:
   - site:
     name: itch.io
     url: "https://caiomga.itch.io/"
+  - site:
+    name: web-link
+    url: "http://caiomga.com"
+  - site:
+    name: blog
+    url: "http://blog.caiomga.com"
+  - site:
+    name: wiki
+    url: "http://wiki.caiomga.com"
 
 skills-programming:
   - name: Unity Engine
